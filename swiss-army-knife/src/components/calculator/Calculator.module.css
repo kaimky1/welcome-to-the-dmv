@@ -1,0 +1,28 @@
+.calculator{
+ width: 240px;
+ border-radius: 10px;
+ border:1px solid grey;
+}
+.display{
+    border-bottom: 1px solid blue;
+    font-size:50px;
+    height: 65px;
+    text-align: end;
+    padding: 0 10px;
+}
+
+.numAndClear{
+list-style: none;
+display: flex;
+padding-left: 0;
+margin-bottom: 0;
+flex-wrap: wrap;
+}
+
+.numandClearItem{
+    width: 25%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
